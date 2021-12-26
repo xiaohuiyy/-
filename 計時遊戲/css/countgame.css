@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+	font-family: 'Comfortaa', cursive;
+	-webkit-font-smoothing: antialiased;
+	background:#F3EAEA;
+}
+
+#wrapper{
+	width:500px;
+	margin:0 auto;
+}
+
+header{
+	position:relative;
+	margin-bottom:10px;
+	color:#F09D85;
+	font-weight:bold;
+}
+
+h1{
+	padding:40px 0 60px;
+	text-align:center;
+	font-size:3em;
+}
+
+#timer{
+	font-size:1.3em;
+	position:absolute;
+	text-align:center;
+	right:0;
+	bottom:0;
+}
+
+#record{
+	font-size:1.3em;
+	position:absolute;
+	bottom:0;
+}
+
+#game{
+	position:relative;
+}
+
+#numbers div{
+	width:99px;
+	height:64px;
+	padding-top:35px;
+	font-size:1.8em;
+	font-weight:bold;
+	background:#F09D85;
+	color:#F3EAEA;
+	margin-right:1px;
+	margin-bottom:1px;
+	text-align:center;
+	float:left;
+	cursor:nw-resize;
+}
+
+#numbers div.hit{
+	background:#E27C1C;
+	color:#F3EAEA;
+}
+
+#startScene{
+	position:absolute;
+	top:0;
+	left:0;
+	width:500px;
+	height:500px;
+	background:#F09D85;
+}
+
+#startScene p{
+	margin:205px 0 10px;
+	text-align:center;
+	color:#F3EAEA;
+}
+
+button{
+	display:block;
+	margin:0 auto;
+    font-family: 'Comfortaa', cursive;
+	border:none;
+	color:#F3EAEA;
+	background:#E2681C;
+	border-radius:30px;
+	font-size:2em;
+	font-weight:bold;
+	padding:10px 40px;
+	cursor:nw-resize;
+	color:#F3EAEA;
+	background:#E27C1C;
+}
+
+button:hover{
+	color:#E27C1C;
+	background:#F3EAEA;
+}
+
+button:focus{
+	outline:none;
+}
